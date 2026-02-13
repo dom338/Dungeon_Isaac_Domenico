@@ -7,6 +7,6 @@
 //Entry point 
 int main()
 {
-    GFileManager.test();
     std::cout << "Hello World!\n";
+    _FileManager.LoadMapFromFile("yuhu");
 }

@@ -3,6 +3,9 @@
 #include <string>
 #include <queue>
 #include <iostream>
+#include "../Entities/Tile.h"
+
+
 
 class FileManager
 {
@@ -21,9 +24,9 @@ public:
 
     #pragma region LoadMap
     //Returns the map from a specified filename,DO NOT call unless its aneeded
-    std::vector<char> LoadMapFromFile(std::string filename);
+    std::vector<std::vector<Tile>> LoadMapFromFile(std::string filename);
     //The standart method of loading files,loads the first of the file queue 
-    std::vector<char> LoadMapFromQueue(std::string filename = FileQueue.front());
+    std::vector<std::vector<Tile>> LoadMapFromQueue(std::string filename = FileQueue.front());
 
     #pragma endregion LoadMap
 
@@ -31,5 +34,5 @@ public:
 };
 
 
-// Global reference to the singleton
-extern FileManager& GFileManager;
+// Global reference to the singleton,use this to call the object functions
+extern FileManager& _FileManager;
