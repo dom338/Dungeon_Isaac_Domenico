@@ -60,6 +60,7 @@ std::vector<std::vector<Tile>> FileManager::LoadMapFromFile(std::string filename
         }
 
     }
+    return map;
 }
 
 #pragma endregion LoadMap
