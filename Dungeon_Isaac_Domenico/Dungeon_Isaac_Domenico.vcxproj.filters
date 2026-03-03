@@ -21,10 +21,16 @@
     <ClCompile Include="FileLoaderr.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="board.cpp">
+    <ClCompile Include="Board.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
     <ClCompile Include="GameManager.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,10 +38,19 @@
     <ClInclude Include="FileLoaderr.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
-    <ClInclude Include="board.h">
+    <ClInclude Include="Board.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
     <ClInclude Include="GameManager.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
   </ItemGroup>
